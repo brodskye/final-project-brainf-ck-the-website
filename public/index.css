@@ -97,7 +97,10 @@ td, th {
 }
 
 #inputBox {
-    background-color: #F0F0F0;
+    resize: none;
+    display: block;
+    text-align: left;
+    background-color: #FAFAFA;
     border: solid #BBB;
     border-width: 3px;
     border-radius: 5px;
