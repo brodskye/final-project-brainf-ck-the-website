@@ -95,3 +95,28 @@ table, th, td {
 td, th {
     padding: 5px;
 }
+
+#inputBox {
+    background-color: #F0F0F0;
+    border: solid #BBB;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+    padding: 10px;
+    width: 35%;
+    height: 400px;
+}
+
+#compileButton {
+    display: inline-block;
+    color: #FFFFF0;
+    font-weight: bold;
+    background-color: #77dd77;
+    border: solid #03c03c;
+    border-width: 2px;
+    border-radius: 2px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
