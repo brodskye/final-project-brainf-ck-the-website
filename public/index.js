@@ -30,7 +30,13 @@ function HESS()
     dataArr[iter]--;
 }
 
-/* Test 'code'
+var output = "";
+function robhess()
+{
+    output = output + ( String.fromCharCode(dataArr[iter]) );
+}
+
+
 ROB();
 rob();
 rob();
@@ -41,13 +47,24 @@ ROB();
 rob();
 rob();
 ROB();
-*/
+hess();
+hess();
+hess();
+hess();
+hess();
+hess();
+robhess();
+rob();
+robhess();
+rob();
+robhess();
+rob();
+robhess();
+rob();
+robhess();
+rob();
+robhess();
 
 //send array to output
-var output = "";
-for(var ii = 0; ii < 16; ii++)
-{
-    output = output + ( String.fromCharCode(dataArr[ii]) );
-}
 
 outputBox.textContent = output;
